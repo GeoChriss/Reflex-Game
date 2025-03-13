@@ -27,7 +27,35 @@ Click the red circles as they appear to score points — but be careful! Clickin
 - **Vanilla JavaScript** – no libraries needed
 - **CSS** – for UI and styling
 
+
 ---
 
-## 📂 Project Structure
+## 🛠️ Game Mechanics (How It Works)
+
+### Game Loop
+- Uses `requestAnimationFrame` to redraw the canvas continuously.
+- A `setInterval` spawns new circles every 500ms while the game is active.
+
+### Circles
+- Red = score point
+- Green = decoy (game over if clicked)
+- Each circle exists for 1–3 seconds before disappearing.
+
+### Scoring
+- Points are tracked and displayed live.
+- Top score is stored and updated if beaten.
+
+### Timer
+- Countdown starts at 30 seconds.
+- Game ends when time runs out or a green circle is clicked.
+
+---
+
+## 📦 Getting Started
+
+To run the game locally:
+
+```bash
+git clone https://github.com/GeoChriss/reflex-game.git
+cd reflex-game
 
