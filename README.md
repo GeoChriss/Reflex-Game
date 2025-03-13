@@ -7,7 +7,7 @@ Click the red circles as they appear to score points — but be careful! Clickin
 
 ## 🎮 Live Demo
 
-🚀 [Play the Game (GitHub Pages)](https://geochriss.github.io/reflex-game/)
+🚀 [Play the Game (GitHub Pages)](https://GeoChriss.github.io/Reflex-Game/)
 
 ---
 
